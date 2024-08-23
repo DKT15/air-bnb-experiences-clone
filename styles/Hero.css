@@ -19,9 +19,11 @@ body {
 .hero-header {
     align-self: center;
     margin-bottom: 16px;
+    font-size: 2rem;
 }
 
 .hero-text {
     align-self: center;
     margin-top: 0;
+    font-size: 1rem;
 }
