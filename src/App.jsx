@@ -6,9 +6,11 @@ import Card from "./components/Card";
 import data from "./data.js";
 
 function App() {
+  // using map to map over all of the data in the js file and apply it to the card prop that has been created.
   const cards = data.map((item) => {
-    return <Card key={item.id} item={item} />;
+    return <Card key={item.id} {...item} />;
   });
+
   return (
     <>
       <Navbar />
