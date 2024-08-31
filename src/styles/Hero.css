@@ -7,23 +7,38 @@ body {
     margin: 32px 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .hero-img {
     height: 450px;
     width: 650px;
-    align-self: center;
     margin-bottom: 16px;
 }
 
 .hero-header {
-    align-self: center;
     margin-bottom: 16px;
     font-size: 2rem;
 }
 
 .hero-text {
-    align-self: center;
     margin-top: 0;
     font-size: 1rem;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 690px) {
+    .hero-img {
+        height: 280px;
+        width: 350px;
+    }
+
+    .hero-header {
+        font-size: 1.5rem;
+    }
+
+    .hero-text {
+        font-size: 0.75rem;
+        margin: 0 32px;
+        text-align: center;
+    }
 }

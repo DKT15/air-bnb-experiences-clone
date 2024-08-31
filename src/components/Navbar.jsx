@@ -11,8 +11,6 @@ function BrandExample() {
           <Navbar.Brand href="#home">
             <img
               src="./assets/airbnb-logo.png"
-              width="250"
-              height="150"
               className="d-inline-block align-top"
               alt="Airbnb logo"
             />
