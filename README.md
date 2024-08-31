@@ -44,7 +44,7 @@ To get started with the website, follow these steps:
 
 ## Deployment
 
-The application is deployed and accessible online. Visit the live version [here](https://dkt-travel-journal.netlify.app/).
+The application is deployed and accessible online. Visit the live version [here](https://dkt-air-bnb-experiences-clone.netlify.app/).
 
 ## Contributing
 
