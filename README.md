@@ -1,4 +1,4 @@
-# Travel Journal
+# AirBnb Experiences Clone
 
 An Airbnb clone that I have customised and built using React as part of a course. This gives the user 3 options for activities.
 
