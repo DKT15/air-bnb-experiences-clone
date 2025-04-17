@@ -4,7 +4,8 @@ body {
 
 #root {
   background-color: #F2EDEB;
-  height: 150vh;
+  height: 100vh;
+  min-height: 1200px;
 }
 
 @media only screen and (min-width: 390px) and (max-width: 690px) {
